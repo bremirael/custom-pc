@@ -63,7 +63,7 @@ app.get('/admin',function (req, res) {
 
 
 /********** TEST CONNEXION BD ? ***********/
-var connection = mysql.createConnection({
+/* var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
@@ -79,6 +79,6 @@ connection.query('SELECT * from user', function (err, rows, fields) {
         logger.error(err);
 });
 
-connection.end();
+connection.end(); */
 
 /********** FIN DU TEST ? **********/
