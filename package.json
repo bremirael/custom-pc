@@ -25,5 +25,8 @@
     "mysql2": "^1.5.1",
     "sequelize": "^4.31.0",
     "serve-favicon": "^2.3.0"
+  },
+  "scripts": {
+	"test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.xml"
   }
 }
