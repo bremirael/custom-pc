@@ -4,7 +4,7 @@
   "description": "Authentification NodeJs",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha"
+    "test": "mocha"
   },
   "keywords": [
     "NODEJS"
@@ -12,6 +12,7 @@
   "author": "groupe",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "body-parser": "^1.14.2",
     "bulma": "^0.6.2",
     "chai": "^4.1.2",
